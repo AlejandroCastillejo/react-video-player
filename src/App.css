@@ -1,0 +1,22 @@
+.App {
+  padding: 1px;
+  min-height: 100vh;
+  background-color: rgb(249, 253, 253);
+  /* text-align: center; */
+}
+
+.App-header {
+  background-color: rgb(8, 8, 8);
+  /* height: 20px 20px; */
+  padding: 1px 20px ;
+  color: white;
+  text-align: initial;
+  font-size: calc(10px + 2vmin);
+}
+
+.layout {
+  padding: 25px 20px ;
+  display: grid;
+  grid-template-columns: 3fr 6fr;
+  grid-gap: 20px;
+}
