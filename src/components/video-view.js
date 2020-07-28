@@ -15,10 +15,8 @@ function VideoView(props) {
         <div>         
             {updateUrl()}
             <iframe width="640" height="360" 
-                // onLoad="resizeIframe(this)"
                 src={url}>
             </iframe>
-
         </div>
     )
 }

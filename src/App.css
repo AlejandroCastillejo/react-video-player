@@ -20,3 +20,13 @@
   grid-template-columns: 3fr 6fr;
   grid-gap: 20px;
 }
+
+.history-area {
+  overflow: scroll;
+  height: 300px;
+}
+
+.bookmarks-area {
+  overflow: scroll;
+  height: 150px;
+}

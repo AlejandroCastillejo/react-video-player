@@ -30,7 +30,6 @@ function Bookmarks(props) {
         else {
             console.log('video is already in bookmarks');
         }
-        
         updateBookmarksList();
     }
 
@@ -48,7 +47,7 @@ function Bookmarks(props) {
             <button onClick={toggle()}>Show bookmarks</button> &nbsp;&nbsp;
             <button onClick={addBookmark()}>Add to bookmarks</button>
             {showBookmarks && ( 
-                <div> 
+                <div className="bookmarks-area"> 
                     {bookmarksList && bookmarksList.map( (bookmark, i) => {
                         return (
                             <div key={i}>

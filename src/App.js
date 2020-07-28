@@ -14,7 +14,6 @@ function App() {
     setvideoUrl(videoUrl)
   }
 
-
   return (
     <div className="App">
       <div className="App-header">
@@ -23,7 +22,7 @@ function App() {
       <div className="layout">
         <div>
           <Bookmarks videoUrl={videoUrl} openVideo={openVideo}/> <br/><br/>
-          <History openVideo={openVideo}/>
+          <History openVideo={openVideo} />
         </div>
         <div>
           <SearchBar searchClicked={openVideo} />
